@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            vijay the hero
+        </title>
+        <link rel="stylesheet" href="survey.css">
+    </head>
+    <body>
+        <div>
+            <h1 id="title">Survey Form</h1>
+        </div>
+        <form id="survey-form">
+            <div>
+                <p id="description">Let us know how we can improve FreeCodeCamp</p>
+            </div>
+            
+            <div class="name">
+                <label for="name" id="name-label">*Name:</label>
+                <input type="text" name="" id="name" placeholder="Enter your name">
+            </div>
+            <div class="name">
+                <label for="email" id="email-label">*Email:</label>
+                <input type="email" name="" id="email" placeholder="Enter your Email">
+            </div>
+            <div class="age">
+                <label for="number" id="number-label">*Age:</label>
+                <input type="number" name="" id="number" placeholder="Age" min="25" max="50">
+            </div>
+            <div class="select">
+                <label for="">Which option best describes your current role:</label>
+                <select name="" id="dropdown">
+                    <option value="student">Student</option>
+                    <option value="fulljob">Full time job</option>
+                    <option value="fulllearner">Full time learner</option>
+                    <option value="notsay">prefer not to say</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+            <div class="radio">
+                <div class="radiotitle">
+                    <label for="">How likely is that you would recommend FreeCodeCamp to a friend:</label>
+                </div>
+                <div class="radiobuttons">
+                    <div>
+                        <input type="radio" name="recommend" id="">
+                        <label for="">Definitely</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="recommend" id="">
+                        <label for="">Maybe</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="recommend" id="">
+                        <label for="">Not Sure</label>
+                    </div>
+                </div>        
+            </div>
+
+            <div class="select2">
+                <label for="">What do you like most in FCC:</label>
+                <select id="dropdown">
+                    <option value="option">Select an option</option>
+                    <option value="challenge">challenges</option>
+                    <option value="project">projects</option>
+                    <option value="communit">community</option>
+                    <option value="opensource">open source</option>
+                </select>
+            </div>
+
+            <div class="checkbox">
+                <div class="checkboxtitle">
+                    <label for="">Things that should be improved in future(Check all that apply):</label>
+                </div>
+                <div class="checkboxbuttons">
+                    <div>
+                        <input type="checkbox" name="" id="" value="Front-end projects">
+                        <label for="">Front-end projects</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="" value="Back-end projects">
+                        <label for="">Back-end projects</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="" value="Data Visualization">
+                        <label for="">Data Visualization</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="" value="Challenges">
+                        <label for="">Challenges</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="" value="Open Source Community">
+                        <label for="">Open Source Community</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="" value="Gitter Help rooms">
+                        <label for="">Gitter Help rooms</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="" value="Videos">
+                        <label for="">Videos</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="" value="City Meetups">
+                        <label for="">City Meetups</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="" value="Wiki">
+                        <label for="">Wiki</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="" value="Forums">
+                        <label for="">Forums</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="" id="" value="Additional Courses">
+                        <label for="">Additional Courses</label>
+                    </div>                    
+                </div>
+
+            </div>
+
+            <div class="textarea">
+                <div class="textarea-label">
+                    <label for="">Any comments or suggestions?</label>
+                </div>
+                <div class="textarea-box">
+                    <textarea name="" id="" cols="40" rows="4" placeholder="Enter your comments here. . ."></textarea>
+                </div>
+            </div>
+            <div class="button">
+                <button type="submit" value="submit" id="submit">Submit</button>
+            </div>
+        </form>
+
+    </body>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
